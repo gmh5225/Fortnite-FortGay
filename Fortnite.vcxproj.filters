@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="OnAttachState.cpp" />
+    <ClCompile Include="Engine.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="option.h">
+      <Filter>Header Files\other</Filter>
+    </ClInclude>
+    <ClInclude Include="others.h">
+      <Filter>Header Files\other</Filter>
+    </ClInclude>
+    <ClInclude Include="lazy.h">
+      <Filter>Header Files\other</Filter>
+    </ClInclude>
+    <ClInclude Include="xor.h">
+      <Filter>Header Files\other</Filter>
+    </ClInclude>
+    <ClInclude Include="spoof.h">
+      <Filter>Header Files\other</Filter>
+    </ClInclude>
+    <ClInclude Include="scan.h">
+      <Filter>Header Files\other</Filter>
+    </ClInclude>
+    <ClInclude Include="CanvasGUI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityLoop.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InitMenu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderIndex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UnrealClasses.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderState.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{b0a72506-baf1-4f94-8a18-5464897e5346}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\other">
+      <UniqueIdentifier>{e73d70ae-205c-4b45-b0bc-5406a0c7aee5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="GoodHook.lib">
+      <Filter>Header Files\other</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="RetSpoofer.asm">
+      <Filter>Header Files\other</Filter>
+    </MASM>
+  </ItemGroup>
+</Project>
